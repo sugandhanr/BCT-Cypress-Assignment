@@ -1,3 +1,6 @@
+Code is Written Based on the Given Instructions :
+’We use Cypress for UI automation so the assignment should be done in Cypress without Cucumber. We use normal Cypress so no BDD'.
+
 CYPRESS ASSIGNMENT
 - Automate the following test cases of the login/logout functionalities for a Bynder portal.
 - Go to the login page: https://wave-trial.getbynder.com/login/
