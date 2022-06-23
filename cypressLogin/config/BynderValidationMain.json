@@ -1,0 +1,27 @@
+{
+  "baseUrl": "https://wave-trial.getbynder.com/login/",
+  "integrationFolder": "cypress/integration/authenticationMFE/tests",
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000,
+  "pageLoadTimeout": 80000,
+  "taskTimeout": 300000,
+  "chromeWebSecurity": false,
+  "projectId": "3se7u6",
+  "blockHosts": [
+    "**.cdn.**",
+    "cdn.*",
+    "*.optimizely.**",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "*.qualaroo.**",
+    "s3.amazonaws.com",
+    "*.nr-data.net**"
+  ],
+  "env": {
+    "ENVIRONMENT": "BynderValidationLogin"
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 2
+  }
+}
